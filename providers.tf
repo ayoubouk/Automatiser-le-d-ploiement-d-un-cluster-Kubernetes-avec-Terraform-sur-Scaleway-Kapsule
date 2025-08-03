@@ -1,7 +1,5 @@
 provider "scaleway" {
-  access_key = var.scaleway_access_key
-  secret_key = var.scaleway_secret_key
-  project_id = var.scaleway_project_id
-  region     = var.scaleway_region
-  zone       = var.scaleway_zone
+  organization_id = "76bd5xxxxxxxxxxxxxxxxxxxxxx"
+  project_id = "16a79xxxxxxxxxxxxxxxxxx"
+  
 }
